@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kate</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style>
+      .content {
+        padding-left: 5%;
+        padding-right:5%;
+      }
+
+      .caption {
+        margin-top: 2%;
+        padding-top: 2%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 5%;
+        word-wrap: break-word;
+        height:22vw;
+      }
+
+      .mini-caption {
+        margin-top: 10px;
+        word-wrap: break-word;
+      }
+
+      .front-header {
+        font-size:25px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color:#808080;
+        font-weight:500;
+      }
+
+      .front-header-m {
+        font-size:4vw;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color:#808080;
+        font-weight:500;
+      }
+
+      .jumbotron {
+        background-color: #ffe6e6;
+        margin-top:0;
+      }
+
+      .navbar-brand {
+        font-weight:800;
+      }
+
+      .list-group-item {
+        border:none;
+        text-align: left;
+      }
+
+      .list-group-item-text{
+        font-weight:500;
+        color:#ff9999;
+        font-size:18px;
+      }
+
+      .list-group-item-heading {
+      color:#999999;
+      font-size:20px;
+      }
+
+      .list-group-item-text-m {
+        font-weight:500;
+        color:#ff9999;
+        font-size:4vw;
+      }
+
+      .list-group-item-heading-m {
+      color:#999999;
+      font-size:4vw;
+      }
+
+      .xp {
+        font-size:16px;
+        font-weight:400;
+        color:#666666;
+      }
+
+      .xpm {
+        font-size:3vw;
+        font-weight:400;
+        color:#666666;
+      }
+
+      .mobile-body {
+        font-size: 3vw;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!--Nav section -->
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://kateglazko.com"> Kate </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+  <h1> Maker. Learner. Innovator.</h1>
+</div>
+</div>
+
+<div class="content">
+
+<div class="hidden-sm hidden-xs">
+<div class="row">
+
+  <div class="col-sm-3 col-sm-offset-1">
+    <div class="front-header"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Co-Founder</div>
+    <br> <img src="img/stealthfly.jpg" alt="Mobile game" style="width:25vw;height:25vw;"> <br>
+    <div class ="caption"> Lead product management and business strategy for StealthFly, a mobile game for the visually impaired. StealthFly has been published on the iOS App Store and sold around the world. StealthFly initially began as a hackathon project for the SS12: Code for a Cause Hackathon where the team represented USC and brought home 1st place. </div></div>
+
+  <div class="col-sm-3 col-sm-offset-1">
+    <div class="front-header"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Developer</div>
+    <br> <img src="img/collage.jpg" alt="Kate" style="width:25vw;height:25vw;"> <br>
+    <div class ="caption"> I am a software engineer on Mozilla's Connected Devices team. I have worked on prototyping projects for user testing as well as metrics and data analysis. Current interests include designing/developing for user-driven products.</div>
+</div>
+
+  <div class="col-sm-3 col-sm-offset-1">
+    <div class="front-header"> <span class="glyphicon glyphicon-education" aria-hidden="true"></span> USC Alum</div>
+    <br> <img src="img/usc.jpg" alt="USC" style="width:25vw;height:25vw;"> <br>
+    <div class="caption">Proud alumni of two wonderful schools at the University of Southern California. My passion for the intersection of technology and business began here. I am a Multimedia Honors Scholar, a National Academy of Engineering Grand Challenges Scholar, and an AXO life-long member.</div>
+  </div>
+</div>
+<hr>
+
+<!--Start resume-->
+<div class="row" id="resume">
+  <div class="front-header"> <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Resume </div>
+  <div class="list-group">
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">Mozilla</h4>
+    <p class="list-group-item-text">Software Engineer | 2016-Current</p>
+    <p class="xp">- HTML/CSS/JS for wearables, AR board game creation, drone demo</p>
+    <p class="xp">- Outreachy intern mentor</p>
+    <p class="xp">- Organized community of 200 Connected Devices enthusiasts and helped lead several communications iniatives</p>
+    <hr>
+  </div>
+
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">StealthFly</h4>
+    <p class="list-group-item-text">Co-Founder | 2015-2016</p>
+    <p class="xp">- Lead user research, user story creation, communications and PR</p>
+    <p class="xp">- Managed 2 successful and profitable iOS store releases</p>
+    <hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">Mozilla</h4>
+    <p class="list-group-item-text">Release Management Intern | Summer 2015</p>
+    <p class="xp">- Redesigned FFOS release notes page using responsive web design</p>
+    <p class="xp">- Created new data analysis scripts for RelMan team relating to bugs and crashes</p>
+    <p class="xp">- Launched a release postmortem survey that increased participation by ~400%</p>
+    <hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">Secret</h4>
+    <p class="list-group-item-text">Campus Marketing Intern | Spring 2015</p>
+    <p class="xp">- Tripled L.A. metro app downloads in a month by leveraging competitors</p>
+    <hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">Mozilla</h4>
+    <p class="list-group-item-text">Mobile Q.A. Intern | Summer 2014</p>
+    <p class="xp">- Created a full manual and automated test suite for Firefox O.S.'s Find
+My Device application which enabled several critical bugs to be caught
+before production.
+</p>
+    <p class="xp">- Wrote several developer tools Firefox O.S. applications that were
+featured in the app store and received more than 400 downloads.</p>
+<hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">DreamWorks Animation</h4>
+    <p class="list-group-item-text">Platform Services Intern | Spring 2014</p>
+    <p class="xp">- Converted DevOps' manual method of tracking device storage into an
+automated dashboard using HTML/CSS/Python Flask.</p>
+<hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading">Apple</h4>
+    <p class="list-group-item-text">Campus Rep | 2012-2013</p>
+    <p class="xp">- Partnered with the bookstore to drive sales during large events such as
+freshman orientation and homecoming.</p>
+    <p class="xp">- Created a new program for marketing Apple products to engineering
+majors which increased penetration of products to engineering school
+at USC by ~200%.</p>
+<hr>
+  </div>
+</div>
+</div>
+
+<!-- Start projects -->
+<div id="projects">
+<div class="front-header"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Projects </div>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/reward_fit.jpg" alt="Fitness">
+      <div class="caption">
+        <h3>RewardFit</h3>
+        <p>Enabling individuals to acquire fitness. Allows the user to monitor their computer usage until a certain amount of steps has been reached daily. </p>
+        <p><a href="https://rewardingfitness.com" class="btn btn-primary" role="button">Read More</a> <a href="https://youtu.be/XIaWYH5gYlY" class="btn btn-default" role="button">View Demo</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/stealthfly.jpg" alt="Accessibility">
+      <div class="caption">
+        <h3>StealthFly</h3>
+        <p>A mobile game designed for the visually impaired. Published and available for sale on iOS. Winner of the SS12 2015 USA hackathon. </p>
+        <p><a href="http://dailytrojan.com/2015/08/26/students-develop-app-for-the-visually-impaired/" class="btn btn-primary" role="button">Read More</a> <a href="https://itunes.apple.com/us/app/stealthfly/id1021732728" class="btn btn-default" role="button">Purchase</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/cityvote.jpg" alt="Civic">
+      <div class="caption">
+        <h3>CityVote</h3>
+        <p>CityVote is an application that allows neighborhoods to post things that are of concern to them (such as potholes, cracks in the road, grafitti, etc.) and vote to submit their concerns to a city official. CityVote was a winner at TreeHacks 2015 for the best use of SendGrid. </p>
+        <p><a href="https://devpost.com/software/city-vote" class="btn btn-primary" role="button">Read More</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/turndown.jpg" alt="Fitness">
+      <div class="caption">
+        <h3>Turn It Down</h3>
+        <p>Turn It Down is an app that makes roommate noise management simple- and automated. The app takes away the pain of having to tell your roommate to be quiet, allowing the user to avoid awkward conversations.  </p>
+        <p><a href="http://devpost.com/software/turn-it-down" class="btn btn-primary" role="button">Read More</a> <a href="https://youtu.be/3u-ptp8s3_E" class="btn btn-default" role="button">View Demo</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/mindme.jpg" alt="Psychology">
+      <div class="caption">
+        <h3>Mind Me</h3>
+        <p>MindMe is an app made for L.A. Hacks 2015 that allows people to have content curated for them based on their mood. The app also keeps track of long-term mood and mental health trends. </p>
+        <p><a href="http://devpost.com/software/mindme" class="btn btn-primary" role="button">Read More</a> <a href="https://youtu.be/n2Xg27GioFs" class="btn btn-default" role="button">View Demo</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/chowder.jpg" alt="Social">
+      <div class="caption">
+        <h3>Chowder</h3>
+        <p>An anti-social app built on top of an anonymous platform to provide its users with a familiar network of strangers. Uses Facebook to populate content feed from similar profiles with at least two degrees of separations. An unbiased outlet for your deepest thoughts, free from judgment. </p>
+        <p><a href="http://devpost.com/software/chowder" class="btn btn-primary" role="button">Read More</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+<!-- Mobile -->
+<div class =" mobile-body hidden-lg hidden-md">
+<div class ="row">
+  <div class="col-sm-12">
+    <div class="front-header-m"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Co-founder </div>
+    <br> <img src="img/stealthfly.jpg" alt="Mobile game" style="width:90vw;"> <br>
+    <div class ="mini-caption"> Led product management and business strategy for StealthFly, a mobile game for the visually impaired. StealthFly has been published on the iOS App Store and sold around the world. StealthFly initially began as a hackathon project for the SS12: Code for a Cause Hackathon where the team represented USC and brought home 1st place. </div>
+    <hr>
+  </div>
+
+
+  <div class="col-sm-12">
+    <div class="front-header-m"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Software Engineer</div>
+    <br> <img src="img/collage.jpg" alt="Kate" style="width:90vw;"> <br>
+    <div class ="mini-caption"> I am a software engineer on Mozilla's Connected Devices team. I have worked on prototyping projects for user testing as well as metrics and data analysis. Current interests include designing/developing for user-driven products.</div>
+    <hr>
+  </div>
+
+  <div class="col-sm-12">
+    <div class="front-header-m"> <span class="glyphicon glyphicon-education" aria-hidden="true"></span> USC Alum </div>
+    <br> <img src="img/usc.jpg" alt="USC" style="width:90vw;"> <br>
+    <div class ="mini-caption">Proud alumni of two wonderful schools at the University of Southern California. My passion for the intersection of technology and business began here. I am a Multimedia Honors Scholar, a National Academy of Engineering Grand Challenges Scholar, and an AXO life-long member.</div>
+    <hr>
+  </div>
+</div>
+
+<!--Start resume-->
+<div class="row" id="resume">
+  <div class="front-header-m"> <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Resume </div>
+  <div class="list-group">
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">Mozilla</h4>
+    <p class="list-group-item-text-m">Software Engineer | 2016-Current</p>
+    <p class="xpm">- HTML/CSS/JS for wearables, AR board game creation, drone demo</p>
+    <p class="xpm">- Outreachy intern mentor</p>
+    <p class="xpm">- Organized community of 200 Connected Devices enthusiasts and helped lead several communications iniatives</p>
+    <hr>
+  </div>
+
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">StealthFly</h4>
+    <p class="list-group-item-text-m">Co-Founder | 2015-2016</p>
+    <p class="xpm">- Lead user research, user story creation, communications and PR</p>
+    <p class="xpm">- Managed 2 successful and profitable iOS store releases</p>
+    <hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">Mozilla</h4>
+    <p class="list-group-item-text-m">Release Management Intern | Summer 2015</p>
+    <p class="xpm">- Redesigned FFOS release notes page using responsive web design</p>
+    <p class="xpm">- Created new data analysis scripts for RelMan team relating to bugs and crashes</p>
+    <p class="xpm">- Launched a release postmortem survey that increased participation by ~400%</p>
+    <hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">Secret</h4>
+    <p class="list-group-item-text-m">Campus Marketing Intern | Spring 2015</p>
+    <p class="xpm">- Tripled L.A. metro app downloads in a month by leveraging competitors</p>
+    <hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">Mozilla</h4>
+    <p class="list-group-item-text-m">Mobile Q.A. Intern | Summer 2014</p>
+    <p class="xpm">- Created a full manual and automated test suite for Firefox O.S.'s Find
+My Device application which enabled several critical bugs to be caught
+before production.
+</p>
+    <p class="xpm">- Wrote several developer tools Firefox O.S. applications that were
+featured in the app store and received more than 400 downloads.</p>
+<hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">DreamWorks Animation</h4>
+    <p class="list-group-item-text-m">Platform Services Intern | Spring 2014</p>
+    <p class="xpm">- Converted DevOps' manual method of tracking device storage into an
+automated dashboard using HTML/CSS/Python Flask.</p>
+<hr>
+  </div>
+  <div class="list-group-item">
+    <h4 class="list-group-item-heading-m">Apple</h4>
+    <p class="list-group-item-text-m">Campus Rep | 2012-2013</p>
+    <p class="xpm">- Partnered with the bookstore to drive sales during large events such as
+freshman orientation and homecoming.</p>
+    <p class="xpm">- Created a new program for marketing Apple products to engineering
+majors which increased penetration of products to engineering school
+at USC by ~200%.</p>
+<hr>
+  </div>
+</div>
+</div>
+
+<!-- Start projects -->
+<div id="projects">
+<div class="front-header-m"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Projects </div>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/reward_fit.jpg" alt="Fitness">
+      <div class="caption">
+        <h3>RewardFit</h3>
+        <p>Enabling individuals to acquire fitness. Allows the user to monitor their computer usage until a certain amount of steps has been reached daily. </p>
+        <p><a href="https://rewardingfitness.com" class="btn btn-primary" role="button">Read More</a> <a href="https://youtu.be/XIaWYH5gYlY" class="btn btn-default" role="button">View Demo</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/stealthfly.jpg" alt="Accessibility">
+      <div class="caption">
+        <h3>StealthFly</h3>
+        <p>A mobile game designed for the visually impaired. Published and available for sale on iOS. Winner of the SS12 2015 USA hackathon. </p>
+        <p><a href="http://dailytrojan.com/2015/08/26/students-develop-app-for-the-visually-impaired/" class="btn btn-primary" role="button">Read More</a> <a href="https://itunes.apple.com/us/app/stealthfly/id1021732728" class="btn btn-default" role="button">Purchase</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/cityvote.jpg" alt="Civic">
+      <div class="caption">
+        <h3>CityVote</h3>
+        <p>CityVote is an application that allows neighborhoods to post things that are of concern to them (such as potholes, cracks in the road, grafitti, etc.) and vote to submit their concerns to a city official. CityVote was a winner at TreeHacks 2015 for the best use of SendGrid. </p>
+        <p><a href="https://devpost.com/software/city-vote" class="btn btn-primary" role="button">Read More</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/turndown.jpg" alt="Fitness">
+      <div class="caption">
+        <h3>Turn It Down</h3>
+        <p>Turn It Down is an app that makes roommate noise management simple- and automated. The app takes away the pain of having to tell your roommate to be quiet, allowing the user to avoid awkward conversations.  </p>
+        <p><a href="http://devpost.com/software/turn-it-down" class="btn btn-primary" role="button">Read More</a> <a href="https://youtu.be/3u-ptp8s3_E" class="btn btn-default" role="button">View Demo</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/mindme.jpg" alt="Psychology">
+      <div class="caption">
+        <h3>Mind Me</h3>
+        <p>MindMe is an app made for L.A. Hacks 2015 that allows people to have content curated for them based on their mood. The app also keeps track of long-term mood and mental health trends. </p>
+        <p><a href="http://devpost.com/software/mindme" class="btn btn-primary" role="button">Read More</a> <a href="https://youtu.be/n2Xg27GioFs" class="btn btn-default" role="button">View Demo</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/chowder.jpg" alt="Social">
+      <div class="caption">
+        <h3>Chowder</h3>
+        <p>An anti-social app built on top of an anonymous platform to provide its users with a familiar network of strangers. Uses Facebook to populate content feed from similar profiles with at least two degrees of separations. An unbiased outlet for your deepest thoughts, free from judgment. </p>
+        <p><a href="http://devpost.com/software/chowder" class="btn btn-primary" role="button">Read More</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+ </div>
+  </body>
+</html>
